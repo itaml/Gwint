@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons"
+                app:srcCompat="@drawable/mons" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons1"
+                app:srcCompat="@drawable/mons1" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons2"
+                app:srcCompat="@drawable/mons10" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons3"
+                app:srcCompat="@drawable/mons11" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons4"
+                app:srcCompat="@drawable/mons2" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons5"
+                app:srcCompat="@drawable/mons3" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons6"
+                app:srcCompat="@drawable/mons4" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons7"
+                app:srcCompat="@drawable/mons5" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons8"
+                app:srcCompat="@drawable/mons6" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons9"
+                app:srcCompat="@drawable/mons7" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons10"
+                app:srcCompat="@drawable/mons8" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/mons11"
+                app:srcCompat="@drawable/mons9" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

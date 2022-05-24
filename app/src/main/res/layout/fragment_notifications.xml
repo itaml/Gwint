@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou"
+                app:srcCompat="@drawable/sou" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou1"
+                app:srcCompat="@drawable/sou1" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou2"
+                app:srcCompat="@drawable/sou10" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou3"
+                app:srcCompat="@drawable/sou11" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou4"
+                app:srcCompat="@drawable/sou2" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou5"
+                app:srcCompat="@drawable/sou3" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou6"
+                app:srcCompat="@drawable/sou4" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou7"
+                app:srcCompat="@drawable/sou5" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou8"
+                app:srcCompat="@drawable/sou6" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou9"
+                app:srcCompat="@drawable/sou7" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou10"
+                app:srcCompat="@drawable/sou8" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="267dp"
+                android:src="@drawable/sou11"
+                app:srcCompat="@drawable/sou9" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
